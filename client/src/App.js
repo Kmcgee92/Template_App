@@ -1,20 +1,25 @@
-import LandingPage from "./Components/LandingPage"
-import DeathKorpsPlayer from "./Components/DeathKorpsPlayer";
-const App = () => {
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
   return (
-    <>
-      <LandingPage />
-      <DeathKorpsPlayer />
-      <h1>Kenny's basic ass website</h1>
-      <img src="https://entrepreneurhandbook.co.uk/wp-content/uploads/2014/03/3d-printer.jpg"></img>
-      <div className="footer">
-        <div>Support me! Footer</div>
-        <div>email maybe</div>
-        <div>phone maybe</div>
-      </div>
-    </>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
-};;
+}
 
 export default App;
-
