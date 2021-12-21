@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "armory": "cd client && npm start"
+    "start": "cd client && npm start"
   },
   "repository": {
     "type": "git",
